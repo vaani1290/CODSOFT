@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vaani Batan | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0a192f;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      padding: 2rem 5%;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #0a192f;
+    }
+
+    /* About Section */
+    .about-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .about-image img {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #0a192f;
+    }
+
+    .about-text {
+      flex: 1;
+      font-size: 1.1rem;
+    }
+
+    /* Skills Section */
+    #skills ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+      font-size: 1.1rem;
+    }
+
+    /* Projects Section */
+    .projects {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .project {
+      background-color: #ffffff;
+      padding: 1rem;
+      border-left: 4px solid #0a192f;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .project h3 {
+      margin-bottom: 0.5rem;
+      color: #0a192f;
+    }
+
+    /* Resume Section */
+    #resume a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    #resume a:hover {
+      text-decoration: underline;
+    }
+
+    /* Contact Section */
+    #contact p {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background-color: #0a192f;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .about-content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about-text {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Vaani Batan</h1>
+    <p>Aspiring Web Developer | Passionate about Front-End</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="image.jpeg" alt="Vaani's Image">
+      </div>
+      <div class="about-text">
+        <p>Hello! I'm Vaani Batan, a passionate web developer focused on front-end technologies. I love crafting clean, interactive, and responsive websites. I’m eager to learn, build, and grow in the field of web development.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+
+      <div class="project">
+        <h3>Quiz App</h3>
+        <p>Developed an interactive quiz app using JavaScript, HTML, and CSS. Features a countdown timer, MCQs, and score tracking system.</p>
+      </div>
+
+      <div class="project">
+        <h3>Amazon Clone</h3>
+        <p>Created a front-end clone of Amazon using HTML, CSS, and JavaScript. Included product listings, navigation, and responsive layout.</p>
+      </div>
+
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>This very portfolio you're viewing! Built to showcase my skills, contact info, and personal projects.</p>
+      </div>
+
+      <div class="project">
+        <h3>Landing Page</h3>
+        <p>Designed a clean and engaging landing page to capture user attention and highlight key features or services.</p>
+      </div>
+
+      <div class="project">
+        <h3>Calculator</h3>
+        <p>Built a calculator using HTML, CSS, and JavaScript that performs basic arithmetic operations with a simple user interface.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Download my resume: <a href="latest_resume.pdf" target="_blank">Click Here</a></p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: vaanibatan@gmail.com</p>
+    <p>Phone: +91-8791133010</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Vaani Batan. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+
+     
